@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Kodaikanal Eats</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kodaikanal Eats</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="special_offers.html">Special Offers</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Contact Us</h2>
+        <p>For any inquiries or support, please use the contact form below or reach out to us at the provided contact details.</p>
+        
+        <form id="contactForm" action="php/contact_form_handler.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Kodaikanal Eats. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<link rel="stylesheet" href="css/ip1style.css">
